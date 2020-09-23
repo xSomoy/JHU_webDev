@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
+
+#item1,
+#item2,
+#item3 {
+    background: #a7a1a1;
+    width: 400px;
+    margin: 10px;
+    display: inline-block;
+    border: 3px solid #000000;
+}
+
+#item1 {
+    position: relative;
+}
+
+#item1 .itemName {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: #bc7335;
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid #000000;
+}
+
+#item1 .itemDescription p {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: left;
+    font-weight: 700;
+}
+
+#item2 {
+    position: relative;
+}
+
+#item2 .itemName {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: #d83f39;
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid #000000;
+}
+
+#item2 .itemDescription p {
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: 700;
+    text-align: left;
+}
+
+#item3 {
+    position: relative;
+}
+
+#item3 .itemName {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: #7a94dd;
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid #000000;
+}
+
+#item3 .itemDescription p {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: left;
+    font-weight: 700;
+}
