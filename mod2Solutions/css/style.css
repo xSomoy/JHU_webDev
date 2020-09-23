@@ -1,3 +1,10 @@
+/* Base Style Start */
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
 }
@@ -10,7 +17,7 @@ h1 {
 #item2,
 #item3 {
     background: #a7a1a1;
-    width: 400px;
+    width: 31%;
     margin: 10px;
     display: inline-block;
     border: 3px solid #000000;
@@ -29,7 +36,7 @@ h1 {
     width: 100px;
     height: 50px;
     text-align: center;
-    line-height: 15px;
+    line-height: 10px;
     font-weight: 700;
     font-size: 20px;
     border: 2px solid #000000;
@@ -55,7 +62,7 @@ h1 {
     width: 100px;
     height: 50px;
     text-align: center;
-    line-height: 15px;
+    line-height: 10px;
     font-weight: 700;
     font-size: 20px;
     border: 2px solid #000000;
@@ -81,7 +88,7 @@ h1 {
     width: 100px;
     height: 50px;
     text-align: center;
-    line-height: 15px;
+    line-height: 10px;
     font-weight: 700;
     font-size: 20px;
     border: 2px solid #000000;
@@ -93,3 +100,38 @@ h1 {
     text-align: left;
     font-weight: 700;
 }
+
+/*Base Style End */
+
+/* Resposive Style Start */
+
+/* Basic Style By Default Reponsive For Desktops */
+
+/* Responsive Rules For Tablets */
+
+@media (min-width:768px) and (max-width:991px) {
+
+    #item1,
+    #item2 {
+        width: 47%;
+    }
+
+    #item3 {
+        display: block;
+        width: 97%;
+    }
+}
+
+/* Responsive Rules For Mobiles */
+
+@media (max-width:767px) {
+
+    #item1,
+    #item2,
+    #item3 {
+        display: block;
+        width: 97%;
+    }
+}
+
+/* Resposive Style End */
